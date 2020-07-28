@@ -11,10 +11,11 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty." 
   else
-    place = 1 
+    #place = 1 
     katz_deli.each do |n| 
-      puts "The line is currently: #{place}. #{n} "
-      place += 1 
+      puts n
+     # puts "The line is currently: #{place}. #{n} "
+    #  place += 1 
     end
   end
 end
