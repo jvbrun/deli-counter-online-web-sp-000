@@ -11,7 +11,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty." 
   else
-      katz_deli.each_with_index.chomp {|val, index| puts "#{index + 1}. #{val}" }
+      katz_deli.each_with_index {|val, index| puts "#{index + 1}. #{val}" }
   end
 end
 
