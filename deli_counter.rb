@@ -13,9 +13,8 @@ def line(katz_deli)
   else
     #place = 1 
     katz_deli.each do |n| 
-      puts n
-     # puts "The line is currently: #{place}. #{n} "
-    #  place += 1 
+      puts "The line is currently: #{place}. #{n} "
+      place += 1 
     end
   end
 end
