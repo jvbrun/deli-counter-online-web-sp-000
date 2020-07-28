@@ -13,7 +13,7 @@ def line(katz_deli)
   else
     place = 1 
     katz_deli.each do |index| 
-      puts "The line is currently: #{place}. #{index} "
+      puts "The line is currently: #{place}. " index 
       place += 1 
     end
   end
